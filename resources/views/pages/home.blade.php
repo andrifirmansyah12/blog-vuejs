@@ -14,6 +14,8 @@
     <!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
 
+    <link rel="shortcut icon" href="{{ asset('img/logo1.png') }}" type="image/x-icon">
+
     {{-- Css Style --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">

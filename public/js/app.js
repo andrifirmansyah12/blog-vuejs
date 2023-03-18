@@ -2701,8 +2701,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  methods: {
+    articlelRoute: function articlelRoute() {
+      this.$router.push({
+        name: "Blog"
+      });
+    }
+  }
+});
 
 /***/ }),
 
@@ -2961,7 +2989,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.leaf {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    top: 0;\n    left: 0;\n}\n.leaf div {\n    position: absolute;\n    display: block;\n}\n.leaf div:nth-child(1) {\n    left: 20%;\n    animation: fall 15s linear infinite;\n    animation-delay: -2s;\n}\n.leaf div:nth-child(2) {\n    left: 70%;\n    animation: fall 15s linear infinite;\n    animation-delay: -4s;\n}\n.leaf div:nth-child(3) {\n    left: 10%;\n    animation: fall 20s linear infinite;\n    animation-delay: -7s;\n}\n.leaf div:nth-child(4) {\n    left: 50%;\n    animation: fall 18s linear infinite;\n    animation-delay: -5s;\n}\n.leaf div:nth-child(5) {\n    left: 85%;\n    animation: fall 14s linear infinite;\n    animation-delay: -5s;\n}\n.leaf div:nth-child(6) {\n    left: 15%;\n    animation: fall 16s linear infinite;\n    animation-delay: -10s;\n}\n.leaf div:nth-child(7) {\n    left: 90%;\n    animation: fall 15s linear infinite;\n    animation-delay: -4s;\n}\n@keyframes fall {\n0% {\n        opacity: 1;\n        top: -10%;\n        transform: translateX (20px) rotate(0deg);\n}\n20% {\n        opacity: 0.8;\n        transform: translateX (-20px) rotate(45deg);\n}\n40% {\n\n        transform: translateX (-20px) rotate(90deg);\n}\n60% {\n\n        transform: translateX (-20px) rotate(135deg);\n}\n80% {\n\n        transform: translateX (-20px) rotate(180deg);\n}\n100% {\n\n        top: 110%;\n        transform: translateX (-20px) rotate(225deg);\n}\n}\n.leaf1 {\n    transform: rotateX(180deg);\n}\n\n/* ======================================================== BASED CSS =========================================================== */\n.based-about {\n    padding: 30px;\n    border-radius: 30px;\n    background: lightgrey;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n    margin-top: 2rem !important;\n    margin-bottom: 2rem !important;\n    position: relative;\n    width: 100%;\n    display: flex !important;\n    justify-content: center;\n    align-items: center;\n}\n.based-post-filter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n    margin-top: 2rem !important;\n    margin-bottom: 2rem !important;\n}\n.based-post {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(280px, auto));\n    justify-content: center;\n    align-items: center;\n    gap: 1.5rem;\n}\n\n/* ============================================================ SOCIAL MEDIA =============================================================== */\n.based-main {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    gap: 0.5em;\n}\n.based-up {\n    display: flex;\n    flex-direction: row;\n    gap: 0.5em;\n}\n.based-down {\n    display: flex;\n    flex-direction: row;\n    gap: 0.5em;\n}\n.based-card1 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 90px 5px 5px 5px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.instagram {\n    margin-top: 1.5em;\n    margin-left: -.6em;\n    fill: #cc39a4;\n}\n.based-card2 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 5px 90px 5px 5px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.twitter {\n    margin-top: 1.5em;\n    margin-left: -.9em;\n    fill: #03A9F4;\n}\n.based-card3 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 5px 5px 5px 90px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.github {\n    margin-top: -.9em;\n    margin-left: -.6em;\n}\n.based-card4 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 5px 5px 90px 5px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.discord {\n    margin-top: -.9em;\n    margin-left: -1.2em;\n    fill: #8c9eff;\n}\n.based-card1:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: #cc39a4;\n}\n.based-card1:hover .instagram {\n    fill: white;\n}\n.based-card2:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: #03A9F4;\n}\n.based-card2:hover .twitter {\n    fill: white;\n}\n.based-card3:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: black;\n}\n.based-card3:hover .github {\n    fill: white;\n}\n.based-card4:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: #8c9eff;\n}\n.based-card4:hover .discord {\n    fill: white;\n}\n\n/* =========================================================== BUTTON MENU ================================================================ */\nbutton {\n    position: relative;\n    padding: 15px 45px;\n    background: #FEC195;\n    font-size: 17px;\n    font-weight: 500;\n    color: #181818;\n    border: 1px solid #FEC195;\n    border-radius: 8px;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));\n}\nbutton:hover {\n    border: 1px solid #f3b182;\n    background: linear-gradient(85deg, #FEC195, #fcc196, #fabd92, #fac097, #fac39c);\n    animation: wind 2s ease-in-out infinite;\n}\n@keyframes wind {\n0% {\n        background-position: 0% 50%;\n}\n0% {\n        background-position: 50% 100%;\n}\n0% {\n        background-position: 0% 50%;\n}\n}\n.based-icon-1 {\n    position: absolute;\n    top: 0;\n    right: 0;\n    width: 25px;\n    transform-origin: 0 0;\n    transform: rotate(10deg);\n    transition: all .5s ease-in-out;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .3));\n}\nbutton .based-icon-1 {\n    animation: slay-1 3s cubic-bezier(0.52, 0, 0.58, 1) infinite;\n    transform: rotate(10deg);\n}\n@keyframes slay-1 {\n0% {\n        transform: rotate(10deg);\n}\n50% {\n        transform: rotate(-5deg);\n}\n100% {\n        transform: rotate(10deg);\n}\n}\n.based-icon-2 {\n    position: absolute;\n    top: 0;\n    left: 25px;\n    width: 12px;\n    transform-origin: 50% 0;\n    transform: rotate(10deg);\n    transition: all 1s ease-in-out;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));\n}\nbutton .based-icon-2 {\n    animation: slay-2 3s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;\n    transform: rotate(0);\n}\n@keyframes slay-2 {\n0% {\n        transform: rotate(0deg);\n}\n50% {\n        transform: rotate(15deg);\n}\n100% {\n        transform: rotate(0);\n}\n}\n.based-icon-3 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 18px;\n    transform-origin: 50% 0;\n    transform: rotate(-5deg);\n    transition: all 1s ease-in-out;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));\n}\nbutton .based-icon-3 {\n    animation: slay-3 2s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;\n    transform: rotate(0);\n}\n@keyframes slay-3 {\n0% {\n        transform: rotate(0deg);\n}\n50% {\n        transform: rotate(-5deg);\n}\n100% {\n        transform: rotate(0);\n}\n}\n\n\n/* ======================================================== FLIP CARD ==================================================================== */\n.flip-card {\n    background-color: transparent;\n    width: 100%;\n    height: 300px;\n    perspective: 1000px;\n    font-family: sans-serif;\n}\n.title {\n    font-size: 1.5em;\n    font-weight: 900;\n    text-align: center;\n    margin: 0;\n}\n.flip-card-inner {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center;\n    transition: transform 0.8s;\n    transform-style: preserve-3d;\n}\n.flip-card:hover .flip-card-inner {\n    transform: rotateY(180deg);\n}\n.flip-card-front,\n.flip-card-back {\n    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n    height: 100%;\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    border: 1px solid coral;\n    border-radius: 1rem;\n}\n.flip-card-front {\n    background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,\n            rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);\n    color: coral;\n}\n.flip-card-back {\n    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,\n            bisque 40%, rgb(255, 185, 160) 78%);\n    color: white;\n    transform: rotateY(180deg);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* ============================================================ Button Route ======================================================== */\n.cta {\n    border: none;\n    background: none;\n}\n.cta span {\n    padding-bottom: 7px;\n    letter-spacing: 4px;\n    font-size: 14px;\n    padding-right: 15px;\n    text-transform: uppercase;\n}\n.cta svg {\n    transform: translateX(-8px);\n    transition: all 0.3s ease;\n}\n.cta:hover svg {\n    transform: translateX(0);\n}\n.cta:active svg {\n    transform: scale(0.9);\n}\n.hover-underline-animation {\n    position: relative;\n    color: black;\n    padding-bottom: 20px;\n}\n.hover-underline-animation:after {\n    content: \"\";\n    position: absolute;\n    width: 100%;\n    transform: scaleX(0);\n    height: 2px;\n    bottom: 0;\n    left: 0;\n    background-color: #000000;\n    transform-origin: bottom right;\n    transition: transform 0.25s ease-out;\n}\n.cta:hover .hover-underline-animation:after {\n    transform: scaleX(1);\n    transform-origin: bottom left;\n}\n\n/* ============================================================= Animasi ======================================================== */\n.leaf {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    top: 0;\n    left: 0;\n}\n.leaf div {\n    position: absolute;\n    display: block;\n}\n.leaf div:nth-child(1) {\n    left: 20%;\n    animation: fall 15s linear infinite;\n    animation-delay: -2s;\n}\n.leaf div:nth-child(2) {\n    left: 70%;\n    animation: fall 15s linear infinite;\n    animation-delay: -4s;\n}\n.leaf div:nth-child(3) {\n    left: 10%;\n    animation: fall 20s linear infinite;\n    animation-delay: -7s;\n}\n.leaf div:nth-child(4) {\n    left: 50%;\n    animation: fall 18s linear infinite;\n    animation-delay: -5s;\n}\n.leaf div:nth-child(5) {\n    left: 85%;\n    animation: fall 14s linear infinite;\n    animation-delay: -5s;\n}\n.leaf div:nth-child(6) {\n    left: 15%;\n    animation: fall 16s linear infinite;\n    animation-delay: -10s;\n}\n.leaf div:nth-child(7) {\n    left: 90%;\n    animation: fall 15s linear infinite;\n    animation-delay: -4s;\n}\n@keyframes fall {\n0% {\n        opacity: 1;\n        top: -10%;\n        transform: translateX (20px) rotate(0deg);\n}\n20% {\n        opacity: 0.8;\n        transform: translateX (-20px) rotate(45deg);\n}\n40% {\n\n        transform: translateX (-20px) rotate(90deg);\n}\n60% {\n\n        transform: translateX (-20px) rotate(135deg);\n}\n80% {\n\n        transform: translateX (-20px) rotate(180deg);\n}\n100% {\n\n        top: 110%;\n        transform: translateX (-20px) rotate(225deg);\n}\n}\n.leaf1 {\n    transform: rotateX(180deg);\n}\n\n/* ======================================================== BASED CSS =========================================================== */\n.based-about {\n    padding: 30px;\n    border-radius: 30px;\n    background: lightgrey;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n    margin-top: 2rem !important;\n    margin-bottom: 2rem !important;\n    position: relative;\n    width: 100%;\n    display: flex !important;\n    justify-content: center;\n    align-items: center;\n}\n.based-post-filter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n    margin-top: 2rem !important;\n    margin-bottom: 2rem !important;\n}\n.based-post {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(280px, auto));\n    justify-content: center;\n    align-items: center;\n    gap: 1.5rem;\n}\n\n/* ============================================================ SOCIAL MEDIA =============================================================== */\n.based-main {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    gap: 0.5em;\n}\n.based-up {\n    display: flex;\n    flex-direction: row;\n    gap: 0.5em;\n}\n.based-down {\n    display: flex;\n    flex-direction: row;\n    gap: 0.5em;\n}\n.based-card1 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 90px 5px 5px 5px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.instagram {\n    margin-top: 1.5em;\n    margin-left: -.6em;\n    fill: #cc39a4;\n}\n.based-card2 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 5px 90px 5px 5px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.twitter {\n    margin-top: 1.5em;\n    margin-left: -.9em;\n    fill: #03A9F4;\n}\n.based-card3 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 5px 5px 5px 90px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.github {\n    margin-top: -.9em;\n    margin-left: -.6em;\n}\n.based-card4 {\n    width: 90px;\n    height: 90px;\n    outline: none;\n    border: none;\n    background: white;\n    border-radius: 5px 5px 90px 5px;\n    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n    transition: .2s ease-in-out;\n}\n.discord {\n    margin-top: -.9em;\n    margin-left: -1.2em;\n    fill: #8c9eff;\n}\n.based-card1:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: #cc39a4;\n}\n.based-card1:hover .instagram {\n    fill: white;\n}\n.based-card2:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: #03A9F4;\n}\n.based-card2:hover .twitter {\n    fill: white;\n}\n.based-card3:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: black;\n}\n.based-card3:hover .github {\n    fill: white;\n}\n.based-card4:hover {\n    cursor: pointer;\n    scale: 1.1;\n    background-color: #8c9eff;\n}\n.based-card4:hover .discord {\n    fill: white;\n}\n\n/* =========================================================== BUTTON MENU ================================================================ */\nbutton {\n    position: relative;\n    padding: 15px 45px;\n    background: #FEC195;\n    font-size: 17px;\n    font-weight: 500;\n    color: #181818;\n    border: 1px solid #FEC195;\n    border-radius: 8px;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));\n}\nbutton:hover {\n    border: 1px solid #f3b182;\n    background: linear-gradient(85deg, #FEC195, #fcc196, #fabd92, #fac097, #fac39c);\n    animation: wind 2s ease-in-out infinite;\n}\n@keyframes wind {\n0% {\n        background-position: 0% 50%;\n}\n0% {\n        background-position: 50% 100%;\n}\n0% {\n        background-position: 0% 50%;\n}\n}\n.based-icon-1 {\n    position: absolute;\n    top: 0;\n    right: 0;\n    width: 25px;\n    transform-origin: 0 0;\n    transform: rotate(10deg);\n    transition: all .5s ease-in-out;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .3));\n}\nbutton .based-icon-1 {\n    animation: slay-1 3s cubic-bezier(0.52, 0, 0.58, 1) infinite;\n    transform: rotate(10deg);\n}\n@keyframes slay-1 {\n0% {\n        transform: rotate(10deg);\n}\n50% {\n        transform: rotate(-5deg);\n}\n100% {\n        transform: rotate(10deg);\n}\n}\n.based-icon-2 {\n    position: absolute;\n    top: 0;\n    left: 25px;\n    width: 12px;\n    transform-origin: 50% 0;\n    transform: rotate(10deg);\n    transition: all 1s ease-in-out;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));\n}\nbutton .based-icon-2 {\n    animation: slay-2 3s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;\n    transform: rotate(0);\n}\n@keyframes slay-2 {\n0% {\n        transform: rotate(0deg);\n}\n50% {\n        transform: rotate(15deg);\n}\n100% {\n        transform: rotate(0);\n}\n}\n.based-icon-3 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 18px;\n    transform-origin: 50% 0;\n    transform: rotate(-5deg);\n    transition: all 1s ease-in-out;\n    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));\n}\nbutton .based-icon-3 {\n    animation: slay-3 2s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;\n    transform: rotate(0);\n}\n@keyframes slay-3 {\n0% {\n        transform: rotate(0deg);\n}\n50% {\n        transform: rotate(-5deg);\n}\n100% {\n        transform: rotate(0);\n}\n}\n\n\n/* ======================================================== FLIP CARD ==================================================================== */\n.flip-card {\n    background-color: transparent;\n    width: 100%;\n    height: 300px;\n    perspective: 1000px;\n    font-family: sans-serif;\n}\n.title {\n    font-size: 1.5em;\n    font-weight: 900;\n    text-align: center;\n    margin: 0;\n}\n.flip-card-inner {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center;\n    transition: transform 0.8s;\n    transform-style: preserve-3d;\n}\n.flip-card:hover .flip-card-inner {\n    transform: rotateY(180deg);\n}\n.flip-card-front,\n.flip-card-back {\n    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n    height: 100%;\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    border: 1px solid coral;\n    border-radius: 1rem;\n}\n.flip-card-front {\n    background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,\n            rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);\n    color: coral;\n}\n.flip-card-back {\n    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,\n            bisque 40%, rgb(255, 185, 160) 78%);\n    color: white;\n    transform: rotateY(180deg);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -23012,10 +23040,190 @@ var render = function () {
       ]),
     ]),
     _vm._v(" "),
-    _vm._m(1),
+    _c("div", { staticClass: "based-post container" }, [
+      _c("div", { staticClass: "flip-card" }, [
+        _c("div", { staticClass: "flip-card-inner" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "flip-card-back" }, [
+            _c("p", { staticClass: "title" }, [_vm._v("Klik Saya")]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "cta",
+                attrs: { href: "" },
+                on: {
+                  click: function ($event) {
+                    return _vm.articlelRoute()
+                  },
+                },
+              },
+              [
+                _c("span", { staticClass: "hover-underline-animation" }, [
+                  _vm._v(" Disini "),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      viewBox: "0 0 46 16",
+                      height: "10",
+                      width: "30",
+                      xmlns: "http://www.w3.org/2000/svg",
+                      id: "arrow-horizontal",
+                    },
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        transform: "translate(30)",
+                        d: "M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z",
+                        "data-name": "Path 10",
+                        id: "Path_10",
+                      },
+                    }),
+                  ]
+                ),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flip-card" }, [
+        _c("div", { staticClass: "flip-card-inner" }, [
+          _vm._m(2),
+          _vm._v(" "),
+          _c("div", { staticClass: "flip-card-back" }, [
+            _c("p", { staticClass: "title" }, [_vm._v("Klik Saya")]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "cta",
+                attrs: { href: "" },
+                on: {
+                  click: function ($event) {
+                    return _vm.galleryRoute()
+                  },
+                },
+              },
+              [
+                _c("span", { staticClass: "hover-underline-animation" }, [
+                  _vm._v(" Disini "),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      viewBox: "0 0 46 16",
+                      height: "10",
+                      width: "30",
+                      xmlns: "http://www.w3.org/2000/svg",
+                      id: "arrow-horizontal",
+                    },
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        transform: "translate(30)",
+                        d: "M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z",
+                        "data-name": "Path 10",
+                        id: "Path_10",
+                      },
+                    }),
+                  ]
+                ),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flip-card" }, [
+        _c("div", { staticClass: "flip-card-inner" }, [
+          _vm._m(3),
+          _vm._v(" "),
+          _c("div", { staticClass: "flip-card-back" }, [
+            _c("p", { staticClass: "title" }, [_vm._v("Klik Saya")]),
+            _vm._v(" "),
+            _c("a", { staticClass: "cta" }, [
+              _c("span", { staticClass: "hover-underline-animation" }, [
+                _vm._v(" Disini "),
+              ]),
+              _vm._v(" "),
+              _c(
+                "svg",
+                {
+                  attrs: {
+                    viewBox: "0 0 46 16",
+                    height: "10",
+                    width: "30",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    id: "arrow-horizontal",
+                  },
+                },
+                [
+                  _c("path", {
+                    attrs: {
+                      transform: "translate(30)",
+                      d: "M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z",
+                      "data-name": "Path 10",
+                      id: "Path_10",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flip-card" }, [
+        _c("div", { staticClass: "flip-card-inner" }, [
+          _vm._m(4),
+          _vm._v(" "),
+          _c("div", { staticClass: "flip-card-back" }, [
+            _c("p", { staticClass: "title" }, [_vm._v("Klik Saya")]),
+            _vm._v(" "),
+            _c("a", { staticClass: "cta" }, [
+              _c("span", { staticClass: "hover-underline-animation" }, [
+                _vm._v(" Disini "),
+              ]),
+              _vm._v(" "),
+              _c(
+                "svg",
+                {
+                  attrs: {
+                    viewBox: "0 0 46 16",
+                    height: "10",
+                    width: "30",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    id: "arrow-horizontal",
+                  },
+                },
+                [
+                  _c("path", {
+                    attrs: {
+                      transform: "translate(30)",
+                      d: "M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z",
+                      "data-name": "Path 10",
+                      id: "Path_10",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+    ]),
     _vm._v(" "),
     _c("div", { staticClass: "based-about container" }, [
-      _vm._m(2),
+      _vm._m(5),
       _vm._v(" "),
       _c("div", { staticClass: "based-main" }, [
         _c("div", { staticClass: "based-up" }, [
@@ -23376,70 +23584,40 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "based-post container" }, [
-      _c("div", { staticClass: "flip-card" }, [
-        _c("div", { staticClass: "flip-card-inner" }, [
-          _c("div", { staticClass: "flip-card-front" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("FLIP CARD")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Hover Me")]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "flip-card-back" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("BACK")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Leave Me")]),
-          ]),
-        ]),
-      ]),
+    return _c("div", { staticClass: "flip-card-front" }, [
+      _c("p", { staticClass: "title" }, [_vm._v("ARTIKEL")]),
       _vm._v(" "),
-      _c("div", { staticClass: "flip-card" }, [
-        _c("div", { staticClass: "flip-card-inner" }, [
-          _c("div", { staticClass: "flip-card-front" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("FLIP CARD")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Hover Me")]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "flip-card-back" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("BACK")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Leave Me")]),
-          ]),
-        ]),
-      ]),
+      _c("p", [_vm._v("Article")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flip-card-front" }, [
+      _c("p", { staticClass: "title" }, [_vm._v("Galeri")]),
       _vm._v(" "),
-      _c("div", { staticClass: "flip-card" }, [
-        _c("div", { staticClass: "flip-card-inner" }, [
-          _c("div", { staticClass: "flip-card-front" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("FLIP CARD")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Hover Me")]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "flip-card-back" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("BACK")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Leave Me")]),
-          ]),
-        ]),
-      ]),
+      _c("p", [_vm._v("Gallery")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flip-card-front" }, [
+      _c("p", { staticClass: "title" }, [_vm._v("Tentang Saya")]),
       _vm._v(" "),
-      _c("div", { staticClass: "flip-card" }, [
-        _c("div", { staticClass: "flip-card-inner" }, [
-          _c("div", { staticClass: "flip-card-front" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("FLIP CARD")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Hover Me")]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "flip-card-back" }, [
-            _c("p", { staticClass: "title" }, [_vm._v("BACK")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Leave Me")]),
-          ]),
-        ]),
-      ]),
+      _c("p", [_vm._v("About Me")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flip-card-front" }, [
+      _c("p", { staticClass: "title" }, [_vm._v("Hubungi Saya")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Contact Me")]),
     ])
   },
   function () {
